@@ -1,0 +1,72 @@
+@font-face {
+  font-family: stafford-serial-light-regular;
+  src: url(font/stafford-serial-light-regular.ttf);
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+.container-fluid .banner {
+  width: 100%;
+  height: 85vh;
+  background-image: url(img/banner.jpg);
+  background-size: 100% 85vh;
+}
+
+.container-fluid .banner .navbar .collapse .navbar-nav .nav-item .dropdown-menu .dropdown-item {
+  color: white;
+}
+
+.container-fluid .banner .navbar .collapse .navbar-nav .nav-item .dropdown-menu .dropdown-item:hover {
+  color: black;
+  font-weight: 500;
+}
+
+.container-fluid .banner .banner-title {
+  position: absolute;
+  width: 100%;
+  left: 50%;
+  top: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+}
+
+.container-fluid .banner .banner-title .font {
+  font-family: stafford-serial-light-regular;
+  letter-spacing: 5px;
+}
+
+.container-fluid .banner .banner-title i {
+  margin-top: 40px;
+  font-size: 40px;
+}
+
+.container-fluid .container legend {
+  font-family: stafford-serial-light-regular;
+  letter-spacing: 2px;
+}
+
+@media only screen and (max-width: 991px) {
+  .container-fluid .banner-title p {
+    font-size: 60px;
+  }
+  .container-fluid .banner-title h3 {
+    font-size: 22px;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .container-fluid .banner-title p {
+    font-size: 50px;
+  }
+  .container-fluid .banner-title h3 {
+    padding: 0 10px;
+    font-size: 18px;
+  }
+}
+/*# sourceMappingURL=style.css.map */
